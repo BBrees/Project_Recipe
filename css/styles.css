@@ -13,3 +13,13 @@
 .fourth-color { 
 	background: #ffc93c; 
 } */
+
+*{
+
+}
+
+.recipe-pic{
+    width: 75%;
+    height: 50%;
+    border-radius: 20%;
+}
