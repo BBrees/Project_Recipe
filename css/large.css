@@ -1,8 +1,27 @@
 @media only screen and (min-width: 1024px) {
     
-
-     
-     
-     
+    main {
+        display: flex;
+        background-color: bisque;
+    }     
+   
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 250px;
+    }
+    
+    .recipe-container{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 500px;
+    }
+    
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 250px;
+    }
+   
      
  } /* end of media query */

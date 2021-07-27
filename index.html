@@ -1,203 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
+    <!--<link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css"> -->
     <title>Home | Project Recipes</title>
 </head>
+
 <body>
     <header>
+
+        <h1>Project Recipes</h1>
+
         <nav>
-            <ul class="nav">
-                <li>Home</li>
-                <li>About</li>
-                <li>Recipes</li>
-                <li>Meal Plan</li>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Meal Plan</a></li>
             </ul>
         </nav>
-        <h1>Project Recipes</h1>
+
     </header>
     <main>
-        <h2>Weeknight Recipes</h2>
-        <section>
-            <h3>Fajitas</h3>
-            <img src="images/Fajitas.jpg" alt="" class="recipe-pic">
+        <div class="about-container">
+            <h2 class="about">About the Project</h2>
+            <p>Every week my wife and I try to plan out our meals for the week. This is a compilation of some favorites.
+                We like a wide variety and always try to think about what will make good leftovers.
+            </p>
+        </div>
+        <div class="recipe-container">
+            <h2>Weeknight Recipes</h2>
+            <section>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Fajitas</h3>
+                        <img src="images/Fajitas.jpg" alt="" class="recipe-pic">
+                    </div>
 
-            <h4 class="ingredients-title">Ingredients</h4>
-            <ul class="ingredients">
-                <li>Chicken Breast</li>
-                <li>Bell Peppers</li>
-                <li>Onions</li>
-                <li>Lime</li>
-                <li>Olive Oil</li>
-                <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
-                <li>Guacamole</li>
-                <li>Tortillas</li>
-            </ul>
-            <h4 class="directions">Directions</h4>
-            <ol class="direction-list">
-                <li>Marinade chicken in lime juice, olive oil & spice blend</li>
-                <li>Grill chicken</li>
-                <li>Sautee peppers and onion</li>
-                <li>Serve with tortillas and guacamole</li>
-            </ol>
-        </section>  
-        <section>
-            <h3>Pulled Pork</h3>
-            <img src="images/PullPork.jpg" alt="" class="recipe-pic">
+                    <button onclick="myFunction()">See Recipe</button>
 
-            <h4 class="ingredients-title">Ingredients</h4>
-            <ul class="ingredients">
-                <li>Chicken Breast</li>
-                <li>Bell Peppers</li>
-                <li>Onions</li>
-                <li>Lime</li>
-                <li>Olive Oil</li>
-                <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
-                <li>Guacamole</li>
-                <li>Tortillas</li>
-            </ul>
-            <h4 class="directions">Directions</h4>
-            <ol class="direction-list">
-                <li>Marinade chicken in lime juice, olive oil & spice blend</li>
-                <li>Grill chicken</li>
-                <li>Sautee peppers and onion</li>
-                <li>Serve with tortillas and guacamole</li>
-            </ol>
-        </section>  
-        <section>
-            <h3>Thai Quinoa Salad</h3>
-            <img src="images/QuinoaSalad.jpg" alt="" class="recipe-pic">
-
-            <h4 class="ingredients-title">Ingredients</h4>
-            <ul class="ingredients">
-                <li>Chicken Breast</li>
-                <li>Bell Peppers</li>
-                <li>Onions</li>
-                <li>Lime</li>
-                <li>Olive Oil</li>
-                <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
-                <li>Guacamole</li>
-                <li>Tortillas</li>
-            </ul>
-            <h4 class="directions">Directions</h4>
-            <ol class="direction-list">
-                <li>Marinade chicken in lime juice, olive oil & spice blend</li>
-                <li>Grill chicken</li>
-                <li>Sautee peppers and onion</li>
-                <li>Serve with tortillas and guacamole</li>
-            </ol>
-        </section>  
-        <section>
-            <h3>Sausage Dish</h3>
-            <img src="images/SausageDish.jpg" alt="" class="recipe-pic">
-
-            <h4 class="ingredients-title">Ingredients</h4>
-            <ul class="ingredients">
-                <li>Chicken Breast</li>
-                <li>Bell Peppers</li>
-                <li>Onions</li>
-                <li>Lime</li>
-                <li>Olive Oil</li>
-                <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
-                <li>Guacamole</li>
-                <li>Tortillas</li>
-            </ul>
-            <h4 class="directions">Directions</h4>
-            <ol class="direction-list">
-                <li>Marinade chicken in lime juice, olive oil & spice blend</li>
-                <li>Grill chicken</li>
-                <li>Sautee peppers and onion</li>
-                <li>Serve with tortillas and guacamole</li>
-            </ol>
-        </section>  
-        <section>
-            <h3>Chicken Broccoli Rice</h3>
-            <img src="images/ChickenBroccoli.jpg" alt="" class="recipe-pic">
-
-            <h4 class="ingredients-title">Ingredients</h4>
-            <ul class="ingredients">
-                <li>Chicken Breast</li>
-                <li>Bell Peppers</li>
-                <li>Onions</li>
-                <li>Lime</li>
-                <li>Olive Oil</li>
-                <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
-                <li>Guacamole</li>
-                <li>Tortillas</li>
-            </ul>
-            <h4 class="directions">Directions</h4>
-            <ol class="direction-list">
-                <li>Marinade chicken in lime juice, olive oil & spice blend</li>
-                <li>Grill chicken</li>
-                <li>Sautee peppers and onion</li>
-                <li>Serve with tortillas and guacamole</li>
-            </ol>
-        </section>  
-        <section>
-            <h3>Korean Bowl</h3>
-            <img src="images/KoreanBowl.jpg" alt="" class="recipe-pic">
-
-            <h4 class="ingredients-title">Ingredients</h4>
-            <ul class="ingredients">
-                <li>Chicken Breast</li>
-                <li>Bell Peppers</li>
-                <li>Onions</li>
-                <li>Lime</li>
-                <li>Olive Oil</li>
-                <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
-                <li>Guacamole</li>
-                <li>Tortillas</li>
-            </ul>
-            <h4 class="directions">Directions</h4>
-            <ol class="direction-list">
-                <li>Marinade chicken in lime juice, olive oil & spice blend</li>
-                <li>Grill chicken</li>
-                <li>Sautee peppers and onion</li>
-                <li>Serve with tortillas and guacamole</li>
-            </ol>
-        </section>  
-        <section>
-            <h3>Enchilada Cassrole</h3>
-            <img src="images/EnchiladaCasserole.jpg" alt="" class="recipe-pic">
-
-            <h4 class="ingredients-title">Ingredients</h4>
-            <ul class="ingredients">
-                <li>Chicken Breast</li>
-                <li>Bell Peppers</li>
-                <li>Onions</li>
-                <li>Lime</li>
-                <li>Olive Oil</li>
-                <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
-                <li>Guacamole</li>
-                <li>Tortillas</li>
-            </ul>
-            <h4 class="directions">Directions</h4>
-            <ol class="direction-list">
-                <li>Marinade chicken in lime juice, olive oil & spice blend</li>
-                <li>Grill chicken</li>
-                <li>Sautee peppers and onion</li>
-                <li>Serve with tortillas and guacamole</li>
-            </ol>
-        </section>  
-
-        <form action="" class="recommendations">
-            <label for="name">Name</label>
-            <input type="text" id="name"></input>
-            <label for="email">Email</label>
-            <input type="email" id="email"></input><br>
-            <label for="newRecipe">Share your recipes --</label>
-            <textarea name="recommendations" id="newRecipe" cols="30" rows="10"></textarea>
-            <button type="Submit">Share the Wealth</button>
-        </form>
+                    <div class="card-back" id="card-back-1">
+                        <h4 class="ingredients-title">Ingredients</h4>
+                        <ul class="ingredients">
+                            <li>Chicken Breast</li>
+                            <li>Bell Peppers</li>
+                            <li>Onions</li>
+                            <li>Lime</li>
+                            <li>Olive Oil</li>
+                            <li>Spice Blend</li>
+                            <li>Guacamole</li>
+                            <li>Tortillas</li>
+                        </ul>
+                        <h4 class="directions">Directions</h4>
+                        <ol class="direction-list">
+                            <li>Marinade chicken in lime juice, olive oil & spice blend</li>
+                            <li>Grill chicken</li>
+                            <li>Sautee peppers and onion</li>
+                            <li>Serve with tortillas and guacamole</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Pulled Pork</h3>
+                        <img src="images/PullPork.jpg" alt="" class="recipe-pic">
+                    </div>
+                    <div class="card-back">
+                        <h4 class="ingredients-title">Ingredients</h4>
+                        <ul class="ingredients">
+                            <li>Chicken Breast</li>
+                            <li>Bell Peppers</li>
+                            <li>Onions</li>
+                            <li>Lime</li>
+                            <li>Olive Oil</li>
+                            <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
+                            <li>Guacamole</li>
+                            <li>Tortillas</li>
+                        </ul>
+                        <h4 class="directions">Directions</h4>
+                        <ol class="direction-list">
+                            <li>Marinade chicken in lime juice, olive oil & spice blend</li>
+                            <li>Grill chicken</li>
+                            <li>Sautee peppers and onion</li>
+                            <li>Serve with tortillas and guacamole</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Thai Quinoa Salad</h3>
+                        <img src="images/QuinoaSalad.jpg" alt="" class="recipe-pic">
+                    </div>
+                    <div class="card-back">
+                        <h4 class="ingredients-title">Ingredients</h4>
+                        <ul class="ingredients">
+                            <li>Chicken Breast</li>
+                            <li>Bell Peppers</li>
+                            <li>Onions</li>
+                            <li>Lime</li>
+                            <li>Olive Oil</li>
+                            <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
+                            <li>Guacamole</li>
+                            <li>Tortillas</li>
+                        </ul>
+                        <h4 class="directions">Directions</h4>
+                        <ol class="direction-list">
+                            <li>Marinade chicken in lime juice, olive oil & spice blend</li>
+                            <li>Grill chicken</li>
+                            <li>Sautee peppers and onion</li>
+                            <li>Serve with tortillas and guacamole</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Sausage Dish</h3>
+                        <img src="images/SausageDish.jpg" alt="" class="recipe-pic">
+                    </div>
+                    <div class="card-back">
+                        <h4 class="ingredients-title">Ingredients</h4>
+                        <ul class="ingredients">
+                            <li>Chicken Breast</li>
+                            <li>Bell Peppers</li>
+                            <li>Onions</li>
+                            <li>Lime</li>
+                            <li>Olive Oil</li>
+                            <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
+                            <li>Guacamole</li>
+                            <li>Tortillas</li>
+                        </ul>
+                        <h4 class="directions">Directions</h4>
+                        <ol class="direction-list">
+                            <li>Marinade chicken in lime juice, olive oil & spice blend</li>
+                            <li>Grill chicken</li>
+                            <li>Sautee peppers and onion</li>
+                            <li>Serve with tortillas and guacamole</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Chicken Broccoli Rice</h3>
+                        <img src="images/ChickenBroccoli.jpg" alt="" class="recipe-pic">
+                    </div>
+                    <div class="card-back">
+                        <h4 class="ingredients-title">Ingredients</h4>
+                        <ul class="ingredients">
+                            <li>Chicken Breast</li>
+                            <li>Bell Peppers</li>
+                            <li>Onions</li>
+                            <li>Lime</li>
+                            <li>Olive Oil</li>
+                            <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
+                            <li>Guacamole</li>
+                            <li>Tortillas</li>
+                        </ul>
+                        <h4 class="directions">Directions</h4>
+                        <ol class="direction-list">
+                            <li>Marinade chicken in lime juice, olive oil & spice blend</li>
+                            <li>Grill chicken</li>
+                            <li>Sautee peppers and onion</li>
+                            <li>Serve with tortillas and guacamole</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Korean Bowl</h3>
+                        <img src="images/KoreanBowl.jpg" alt="" class="recipe-pic">
+                    </div>
+                    <div class="card-back">
+                        <h4 class="ingredients-title">Ingredients</h4>
+                        <ul class="ingredients">
+                            <li>Chicken Breast</li>
+                            <li>Bell Peppers</li>
+                            <li>Onions</li>
+                            <li>Lime</li>
+                            <li>Olive Oil</li>
+                            <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
+                            <li>Guacamole</li>
+                            <li>Tortillas</li>
+                        </ul>
+                        <h4 class="directions">Directions</h4>
+                        <ol class="direction-list">
+                            <li>Marinade chicken in lime juice, olive oil & spice blend</li>
+                            <li>Grill chicken</li>
+                            <li>Sautee peppers and onion</li>
+                            <li>Serve with tortillas and guacamole</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Enchilada Cassrole</h3>
+                        <img src="images/EnchiladaCasserole.jpg" alt="" class="recipe-pic">
+                    </div>
+                    <div class="card-back">
+                        <h4 class="ingredients-title">Ingredients</h4>
+                        <ul class="ingredients">
+                            <li>Chicken Breast</li>
+                            <li>Bell Peppers</li>
+                            <li>Onions</li>
+                            <li>Lime</li>
+                            <li>Olive Oil</li>
+                            <li>Spice Blend - cumin, paprika, garlic, cinnamon, salt, pepper</li>
+                            <li>Guacamole</li>
+                            <li>Tortillas</li>
+                        </ul>
+                        <h4 class="directions">Directions</h4>
+                        <ol class="direction-list">
+                            <li>Marinade chicken in lime juice, olive oil & spice blend</li>
+                            <li>Grill chicken</li>
+                            <li>Sautee peppers and onion</li>
+                            <li>Serve with tortillas and guacamole</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="contact-container">
+            <h2 class="form-title">Share your recipe</h2>
+            <form action="" class="recommendations">
+                <label for="name">Name</label>
+                <input type="text" id="name"></input><br>
+                <label for="email">Email</label>
+                <input type="email" id="email"></input><br>
+                <label for="newRecipe">Share your recipes --</label>
+                <textarea name="recommendations" id="newRecipe" cols="30" rows="10"></textarea>
+                <button type="Submit">Share the Wealth</button>
+            </form>
+        </div>
 
     </main>
     <footer>
         <p>Made by <small>Beckett L. Brees</small></p>
     </footer>
-    <script src = "js/home.js"></script>
+    <script src="js/home.js">
+
+    </script>
 </body>
+
 </html>

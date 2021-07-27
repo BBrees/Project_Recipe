@@ -1,5 +1,13 @@
 @media only screen and (min-width: 768px) {
-    
+    main {
+        display: flex;
+        background-color: bisque;
+    }
 
+    .recipe-container{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 500px;
+    }
     
 } /* end of media query */
