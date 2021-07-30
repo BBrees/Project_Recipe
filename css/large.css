@@ -1,27 +1,63 @@
 @media only screen and (min-width: 1024px) {
-    
-    main {
+
+    main{
         display: flex;
-        background-color: bisque;
-    }     
-   
-    .about-container {
+        flex-direction: row;
+    }
+
+    .about-container{
+        width: 25%;
+    }
+
+    .about{
+        padding: 2em;
+    }
+
+    .recipe-container {
         display: flex;
         flex-direction: column;
-        flex-basis: 250px;
-    }
+        align-content: center;
+        justify-content: center;
+        width: 50%;
+
+    }    
     
-    .recipe-container{
+    .flex-left{
         display: flex;
         flex-direction: column;
-        flex-basis: 500px;
+        margin: 0;
     }
-    
+
+    .flex-right{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+
     .contact-container{
         display: flex;
         flex-direction: column;
-        flex-basis: 250px;
+        width:25%;
     }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fname-email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .recommendation-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
    
      
  } /* end of media query */
